@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<style>
+    button{
+        margin: 2rem;
+        padding: 1.5rem;
+        font-style: italic;
+        font-size: 2rem;
+        font-weight: 900;
+        border-radius: 1rem;
+        background-color: black;
+        color: white;
+    }
+</style>
+
+<body onload="shoppingcart()">
+    <a href="./index.html">
+        <button><b><i>Back to Home</i></b></button>
+    </a>
+    <section class="products" id="products">
+        <h1 class="heading"> Cart
+            <span>PRODUCTS</span>
+        </h1>
+        <div class="box-container" id="all-cart">
+
+        </div>
+    </section>
+    <script src="/js/index.js"></script>
+</body>
+</html>
